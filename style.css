@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FB;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #18487B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #54789D;
+    margin: 5px;
+    display: inline-block;
+    background-color: #305B88;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-header {
+    color: #61BAF6;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about,
+.skills,
+.experience {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #18487B;
+    border-bottom: 2px solid #DEEFFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.highlight {
+    color: #0F67AE;
+    font-weight: bold;
+}
+
+.about a {
+    background-color: #0F67AE;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.skills-card {
+    background-color: #FAFCFF;
+    border: 1px solid #DEEFFF;
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.skills-list {
+    display: flex;
+    gap: 15px;
+}
+
+.skills-card h3 {
+    color: #0F67AE;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+    border-left: 4px solid #0F67AE;
+    padding: 20px;
+    background-color: #F4F7FB;
+    border-radius: 12px;
+}
+
+.job img {
+    width: 60px;
+}
+
+.job h3 {
+    color: #071A35;
+    margin-bottom: 5px;
+}
+
+.job p {
+    margin-bottom: 10px;
+}
+
+
+.contact {
+    background-color: #18487B;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    color: white;
+    border-bottom: 1px solid #446C94;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #071A35;
+    color: white;
+    border-radius: 20px;
+}
+
+.footer span {
+    color: #61BAF6;
+    font-weight: bold;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.job-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    background-color: #305B88;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #54789D;
+    border-radius: 8px;
+    margin: 0 5px;
+    display: inline-block;
+}
